@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account - LL DENIM Online Store</title>
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+       <div class="container">
+            <div class="navbar">
+        <div class="logo">
+        <img src="images/logo.png" width="150px"></div>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+        
+        <!account page!>
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="class1">
+                       <img src="images/photo10.png" width="100%">
+                    </div>
+                    
+                    <div class="class1">
+                      <div class="form-container">
+                          <div class="form-button">
+                          <span onclick="login()">Login</span>
+                          <span onclick="register()">Register</span>
+                              <hr id="Indicator">
+                    </div>
+                          
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="button">Login</button>
+                        <a href="">Forgot password</a>
+                    
+                    </form>
+                          
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="button">Register</button>
+                        
+                    </form>
+                    </div>
+                    </div>
+                   </div>
+                    </div>
+               </div>
+        
+        <!js togle form!>
+
+        <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+         var Indicator = document.getElementById("Indicator"); 
+            
+            function register (){
+                RegForm.style.textTransform = "translateX(0px)";
+                LoginFormForm.style.textTransform = "translateX(0px)";
+            }
+            function login (){
+                RegForm.style.textTransform = "translateX(300px)";
+                LoginFormForm.style.textTransform = "translateX(3000px)";
+        
+        </script>
+        
+             <!Footer>
+        
+<div class="footer">
+    <div class="container">
+    <div class="row">
+        <div class="footercol1">
+            <img src="images/storelogo.png">
+            <h3> Download Our App</h3>
+            <p>Available for Android and ios users</p>
+            
+            
+            </div>
+        <div class="footercol2">
+            <img src="images/logo2.png">
+            <p> Innovative, sustainable products to meet your denim needs · Working together to realise the sustainable benefits of laser technology</p>
+        </div>   
+        <div class="footercol3">
+            <h3> Userful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Denim Care</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+            </ul>
+            </div>
+            <div class="footercol4">
+                
+            <h3> Follow Us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+    
+    
+    </body>
+</html>
